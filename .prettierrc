@@ -1,0 +1,19 @@
+{
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": ["*.js", "*.ts"],
+      "options": {
+        "trailingComma": "none",
+        "singleQuote": true
+      }
+    },
+    {
+      "files": ["*.md"],
+      "options": {
+        "proseWrap": "always",
+        "tabWidth": 4
+      }
+    }
+  ]
+}

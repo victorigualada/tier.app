@@ -1,0 +1,17 @@
+ignores: [
+  "@types/jest",
+  "@brightcove/kacl",
+  "npm-run-all",
+  "prettier*",
+  "ts-jest",
+  "ts-node",
+  "ts-node-dev"
+]
+specials: [
+  "bin",
+  "eslint",
+  "husky",
+  "jest",
+  "lint-staged",
+  "prettier"
+]

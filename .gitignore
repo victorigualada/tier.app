@@ -1,0 +1,26 @@
+/.nyc_output/
+/coverage/
+/dist/
+/node_modules/
+.DS_Store
+.vscode
+.idea/
+.eslintrc.json
+/logs
+*.rdb
+config/local*json
+*.tgz
+tmp/
+
+# From https://raw.githubusercontent.com/github/gitignore/master/Terraform.gitignore
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
